@@ -1,19 +1,25 @@
-@import "utils";
+@import "./utils";
 
 @import "./blocks/page";
-@import "./blocks/container";
 @import "./blocks/header";
+@import "./blocks/top-block";
+@import "./blocks/button";
+@import "./blocks/menu";
+@import "./blocks/about";
+@import "./blocks/gallery";
+@import "./blocks/place";
+@import "./blocks/testimonials";
+@import "./blocks/testimonial";
+@import "./blocks/contact-us";
+@import "./blocks/footer";
+
 @import "./blocks/logo";
 @import "./blocks/icon";
-@import "./blocks/top-block";
-@import "./blocks/menu";
-@import "./blocks/footer";
-@import "./blocks/recommended";
-@import "./blocks/about-us";
+@import "./blocks/container";
 @import "./blocks/grid";
-@import "./blocks/browse";
-@import "./blocks/products";
-@import "./blocks/button";
-@import "./blocks/product";
-@import "./blocks/contact-us";
+@import "./blocks/link";
 @import "./blocks/form-field";
+
+[hidden] {
+  display: none;
+}
